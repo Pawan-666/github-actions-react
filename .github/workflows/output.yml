@@ -1,8 +1,12 @@
 name: Output Information
+
 on: workflow_dispatch 
+
 jobs: 
+
   displayjob:
     runs-on: ubuntu:latest
+
     steps: 
       - name: display output Information 
         run: echo "{{ toJSON( github )}}"
