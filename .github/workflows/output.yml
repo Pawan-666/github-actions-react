@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs: 
 
   displayjob:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
 
     steps: 
       - name: display output Information 
